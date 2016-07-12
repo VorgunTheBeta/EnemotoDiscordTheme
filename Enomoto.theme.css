@@ -22,6 +22,14 @@
 
     background-size: cover !important;
 }
+.guilds-wrapper .guilds .friends-icon{
+    width: 30px;
+    height: 30px;
+    background-image: url(/assets/89576a4bb71f927eb20e8aef987b499b.svg);
+    /* background-size: 32px 28px; */
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
 .callout-backdrop {
 
     background-color: rgb(0, 0, 0) !important;
