@@ -26,9 +26,35 @@
     width: 30px;
     height: 30px;
     background-image: url(/assets/89576a4bb71f927eb20e8aef987b499b.svg);
-    /* background-size: 32px 28px; */
+    background-size: 25px 21px;
     background-position: 50%;
     background-repeat: no-repeat;
+}
+.guilds-wrapper .guilds .friends-online{
+    font-size: 7px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: hsla(0,0%,100%,.3);
+    margin: 10px 0;
+    word-wrap: normal;
+    white-space: normal;
+    width: 30px;
+    line-height: 130%;
+    text-align: center;
+}
+.guilds-wrapper {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    width: 60px;
+    -webkit-box-orient: vertical;
+    -o-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: #1e2124;
+    flex-shrink: 0;
 }
 .callout-backdrop {
 
