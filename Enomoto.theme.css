@@ -56,6 +56,21 @@
     background: #1e2124;
     flex-shrink: 0;
 }
+.spinner-wandering-cubes .spinner-item span{
+    background-image: url("https://gyazo.com/bf49bc07d02694f4f20cfa5c4e67727d.gif");
+}
+.guild-channels .channel-text .channel-name {
+    margin-right: 4px;
+    color: #00FFF5;
+}
+.guild-channels .channel-text.selected {
+    background: -webkit-linear-gradient(left,#282b30 85%,#2e3136);
+    background: transparent;
+}
+.guild-channels .channel-text:hover {
+    background: -webkit-linear-gradient(left,#282b30 85%,#2e3136);
+    background: transparent;
+}
 .callout-backdrop {
 
     background-color: rgb(0, 0, 0) !important;
